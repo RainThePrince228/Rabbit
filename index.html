@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+    <title>Rabbit</title>
+    <style>
+        #articleRight{
+            position: relative;
+            overflow-y: hidden;
+        }
+
+        .slide{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="assets/img/Logo.png" alt="">
+        </div>
+        <div id="headerText">
+            <section class="headerTextGray">
+                <p>Личный кабинет</p>
+                <p>О нас</p>
+                <p>Новости и акции</p>
+                <p>Контакты</p>
+                <p>Блог</p>
+            </section>
+            <section class="headerTextOrange">
+                <img src="assets/img/CityLocation.png" alt="">
+                <p>Волгоград</p>
+            </section>
+        </div>
+    </header>
+    <article>
+        <div id="articleLeft">
+            <p class="numbers">1</p>
+            <p class="numbers">2</p>
+            <p class="numbers">3</p>
+            <p class="numbers">4</p>
+            <p class="numbers">5</p>
+            <p class="numbers">6</p>
+        </div>
+        <div id="articleRight">
+            <section id="nonHidden" class="slide" style="z-index: 1;">
+                <section class="nonHiddenText">
+                    <h1>Собственная<br>современная<br>лаборатория</h1>
+                    <button>Записаться</button>
+                </section>
+                <img src="assets/img/Rabbit.png" alt="">
+            </section>
+            <section id="hidden1" class="slide" style="display: none;" style="z-index: -1;">
+                <img src="assets/img/maxresdefault.jpg">
+            </section>
+            <section id="hidden2" class="slide" style="display: none;" style="z-index: -2;">
+                <h2>ХАХААХАХХААХАХАХААХ, ЧТО??????</h2>
+            </section>
+            <section id="hidden3" class="slide" style="display: none;" style="z-index: -3;">
+                <h1>ГОООООООООООООООООООООООООООООООЛ</h1>
+            </section>
+            <section id="hidden4" class="slide" style="display: none;" style="z-index: -4;">
+                <p>Мда, создатель сайта - идиот</p>
+            </section>
+            <section id="hidden5" class="slide" style="display: none;" style="z-index: -5;">
+                <p>АЗАЗАЗЗАЗАЗАЗЗАЗАЗАЗ, Я КУПИЛ БЛЮТУЗ ЗА ДЕНЬГИ</p>
+            </section>
+        </div>
+    </article>
+    <footer>
+        <div id="footerIcons">
+            <img src="assets/img/inst.png" alt="">
+            <img src="assets/img/fb.png" alt="">
+            <img src="assets/img/vk.png" alt="">
+            <img src="assets/img/youtube.png" alt="">
+        </div>
+        <div id="footerTelephone">
+            <h3>+7 (8442) 96 22 92</h3>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

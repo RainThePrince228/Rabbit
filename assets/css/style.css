@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Schoolbell", cursive;
+}
+
+body{
+    background: #fcf0f0;
+    width: 100%;
+    height: 100vh;
+}
+
+/******************************************/
+
+header{
+    width: 95%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header #logo{
+    width: 5.5%;
+    height: 100px;
+    z-index: 1;
+}
+
+header #headerText{
+    width: 94.5%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: white;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.headerTextGray{
+    width: 70%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: #C3B9B5;
+    font-weight: bold;
+}
+
+.headerTextOrange{
+    width: 19%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: #FFC59E;
+    font-weight: bold;
+}
+
+.headerTextOrange p{
+    text-shadow: 2px 2px 4px rgba(0, 0 , 0, 0.5);
+}
+
+/******************************************/
+
+article{
+    width: 95%;
+    height: 60vh;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+#articleLeft{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#articleLeft p{
+    font-size: 20px;
+}
+
+#articleLeft p:hover{
+    transform: scale(1.7);
+    transition: 0.3s;
+}
+
+#articleLeft p:not(:hover){
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+#articleRight{
+    width: 90%;
+}
+
+#nonHidden{
+    height: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nonHiddenText h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#nonHidden button{
+    font-size: 30px;
+    color: white;
+    width: 284.53px;
+    height: 67px;
+    padding: 10px;
+    border: none;
+    background: none;
+    background-color: #ffab72;
+    border-radius: 15px;
+    box-shadow: 10px 10px 4px rgba(255, 184, 117, 0.5);
+}
+
+#nonHidden button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0 , 0, 0.5);
+}
+
+#nonHidden button:not(:hover){
+    transform: scale(1);
+    transition: 0.3s;
+    text-shadow: none;
+}
+
+#nonHidden img{
+    width: 50%;
+}
+
+#hidden1{
+    height: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hidden2{
+    height: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hidden3{
+    height: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hidden4{
+    height: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hidden5{
+    height: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hidden6{
+    height: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+/******************************************/
+
+footer{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footerIcons{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footerTelephone h3{
+    font-weight: bold;
+    font-size: 30px;
+}
